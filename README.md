@@ -1,1 +1,11 @@
 # CS-230-The-Gaming-Room
+
+The Gaming Room Client was a client from our fictional company Creative Technology Solutions. They had hired us to help them in the development of a multi-platform web-based game Draw It or Lose It that had been previously only available on Android applications. Their software requirements stated that a game must have one or more teams involved, each team would have multiple players assigned to it, only one instance of the game can exist in memory at any time, and game and team names must be unique. Their technical and business requirements can be found in the document. 
+
+In this documentation, I compiled extensive research so that the document would not only summarize the system but also provide an extensive recommendation list for different operating systems to host the server on. There is a chart of four operating platforms and information on their server/client side as well as their development tools. In the end, the final recommendation was the Ubuntu distribution of Linux, with a server hosted on Amazon EC2. If I were to revise one part of my document, I would choose the UML diagram discussion and better tie it into the requirements.  
+
+The first half of the design document helped when developing the code as it laid out the requirements necessary for development, as well as the UML class diagram that displayed the necessary relationships. When coding an excerpt of the gaming room, understanding the singleton pattern for the GameService object was made more helpful through the use of the UML diagram. The diagram also helped me in creating the class hierarchy in the code. 
+
+When designing, it is important to take the user’s needs into consideration, or else the project strays from their requirements. User needs were implemented through security, game mechanics, and storage and memory optimization. In the future, I’ll continue to use the strategies of establishing requirements at the beginning of an analysis and design plan, and then continuing to do research throughout to make sure design is modern and optimized to be the best choice. This project taught me a lot about analysis of operating platforms, as well as the connections between server and client side. 
+
+ 
